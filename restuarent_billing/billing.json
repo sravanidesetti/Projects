@@ -1,0 +1,368 @@
+{
+  "items": [
+    {
+      "itemName": "chapathi",
+      "price": "40",
+      "id": "1",
+      "quantity": 1
+    },
+    {
+      "itemName": "spcl-chicken-biryani",
+      "price": "230",
+      "id": "2",
+      "quantity": 1
+    },
+    {
+      "itemName": "chicken-dum-biryani",
+      "price": "250",
+      "id": "3",
+      "quantity": 1
+    },
+    {
+      "itemName": "veg-fried-rice",
+      "price": "150",
+      "id": "4",
+      "quantity": 1
+    },
+    {
+      "itemName": "friedegg",
+      "price": "30",
+      "id": "5",
+      "quantity": 1
+    },
+    {
+      "itemName": "pulihora",
+      "price": "200",
+      "id": "6",
+      "quantity": 1
+    },
+    {
+      "itemName": "egg-burji",
+      "price": "80",
+      "id": "7",
+      "quantity": 1
+    },
+    {
+      "itemName": "egg-chettinad",
+      "price": "130",
+      "id": "8",
+      "quantity": 1
+    },
+    {
+      "itemName": "chilli-egg",
+      "price": "140",
+      "id": "9",
+      "quantity": 1
+    },
+    {
+      "itemName": "egg-mushroom-balls",
+      "price": "190",
+      "id": "10"
+    },
+    {
+      "itemName": "veg manchurian",
+      "price": "120",
+      "id": "11"
+    },
+    {
+      "itemName": "egg manchurian",
+      "price": "150",
+      "id": "12"
+    },
+    {
+      "itemName": "veg palav",
+      "price": "200",
+      "id": "13"
+    },
+    {
+      "itemName": "mushroom curry",
+      "price": "170",
+      "id": "14"
+    },
+    {
+      "itemName": "gobi manchurian",
+      "price": "130",
+      "id": "15"
+    },
+    {
+      "itemName": "palak paneer",
+      "price": "200",
+      "id": "16"
+    },
+    {
+      "itemName": "paneer biryani",
+      "price": "300",
+      "id": "17"
+    },
+    {
+      "itemName": "momos",
+      "price": "100",
+      "id": "18"
+    },
+    {
+      "itemName": "chicken wings",
+      "price": "200",
+      "id": "19"
+    },
+    {
+      "itemName": "chicken lollipops",
+      "price": "250",
+      "id": "20"
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "srav",
+      "totalamount": 930,
+      "billamount": 967.2,
+      "taxes": 37.2,
+      "orderitems": [
+        {
+          "Name": "mushroom curry",
+          "quantity": 1,
+          "cost": "170"
+        },
+        {
+          "Name": "veg palav",
+          "quantity": 1,
+          "cost": "200"
+        },
+        {
+          "Name": "friedegg",
+          "quantity": 1,
+          "cost": "30"
+        },
+        {
+          "Name": "chilli-egg",
+          "quantity": 1,
+          "cost": "140"
+        },
+        {
+          "Name": "egg-mushroom-balls",
+          "quantity": 1,
+          "cost": "190"
+        },
+        {
+          "Name": "pulihora",
+          "quantity": 1,
+          "cost": "200"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customerName": "ramya",
+      "totalamount": 990,
+      "billamount": 1029.6,
+      "taxes": 39.6,
+      "orderitems": [
+        {
+          "Name": "chapathi",
+          "quantity": 1,
+          "cost": "40"
+        },
+        {
+          "Name": "pulihora",
+          "quantity": 1,
+          "cost": "200"
+        },
+        {
+          "Name": "chicken-dum-biryani",
+          "quantity": 1,
+          "cost": "250"
+        },
+        {
+          "Name": "paneer biryani",
+          "quantity": 1,
+          "cost": "300"
+        },
+        {
+          "Name": "veg palav",
+          "quantity": 1,
+          "cost": "200"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customerName": "akhil",
+      "totalamount": 560,
+      "billamount": 582.4,
+      "taxes": 22.4,
+      "orderitems": [
+        {
+          "Name": "momos",
+          "quantity": 1,
+          "cost": "100"
+        },
+        {
+          "Name": "chapathi",
+          "quantity": 1,
+          "cost": "40"
+        },
+        {
+          "Name": "chilli-egg",
+          "quantity": 1,
+          "cost": "140"
+        },
+        {
+          "Name": "veg-fried-rice",
+          "quantity": 1,
+          "cost": "150"
+        },
+        {
+          "Name": "egg-chettinad",
+          "quantity": 1,
+          "cost": "130"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "customerName": "rohan",
+      "totalamount": 600,
+      "billamount": 624,
+      "taxes": 24,
+      "orderitems": [
+        {
+          "Name": "momos",
+          "quantity": 1,
+          "cost": "100"
+        },
+        {
+          "Name": "paneer biryani",
+          "quantity": 1,
+          "cost": "300"
+        },
+        {
+          "Name": "veg palav",
+          "quantity": 1,
+          "cost": "200"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "customerName": "vijay",
+      "totalamount": 2580,
+      "billamount": 2683.2,
+      "taxes": 103.2,
+      "orderitems": [
+        {
+          "Name": "chilli-egg",
+          "quantity": "7",
+          "cost": "980"
+        },
+        {
+          "Name": "pulihora",
+          "quantity": "5",
+          "cost": "1000"
+        },
+        {
+          "Name": "veg manchurian",
+          "quantity": "5",
+          "cost": "600"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "customerName": "Vyshnavi",
+      "totalamount": 9440,
+      "billamount": "9817.60",
+      "taxes": 377.6,
+      "orderitems": [
+        {
+          "Name": "egg-mushroom-balls",
+          "quantity": "6",
+          "cost": "1140"
+        },
+        {
+          "Name": "pulihora",
+          "quantity": "2",
+          "cost": "400"
+        },
+        {
+          "Name": "spcl-chicken-biryani",
+          "quantity": "8",
+          "cost": "1840"
+        },
+        {
+          "Name": "chilli-egg",
+          "quantity": "2",
+          "cost": "280"
+        },
+        {
+          "Name": "veg palav",
+          "quantity": "11",
+          "cost": "2200"
+        },
+        {
+          "Name": "veg palav",
+          "quantity": "3",
+          "cost": "600"
+        },
+        {
+          "Name": "mushroom curry",
+          "quantity": "3",
+          "cost": "510"
+        },
+        {
+          "Name": "egg-mushroom-balls",
+          "quantity": "4",
+          "cost": "760"
+        },
+        {
+          "Name": "egg-mushroom-balls",
+          "quantity": "9",
+          "cost": "1710"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "customerName": "sravani",
+      "totalamount": 4190,
+      "billamount": "4357.60",
+      "taxes": 167.6,
+      "orderitems": [
+        {
+          "Name": "egg-mushroom-balls",
+          "quantity": 2,
+          "cost": 380
+        },
+        {
+          "Name": "spcl-chicken-biryani",
+          "quantity": 1,
+          "cost": "230"
+        },
+        {
+          "Name": "pulihora",
+          "quantity": 1,
+          "cost": "200"
+        },
+        {
+          "Name": "friedegg",
+          "quantity": 1,
+          "cost": "30"
+        },
+        {
+          "Name": "egg-burji",
+          "quantity": 4,
+          "cost": 320
+        },
+        {
+          "Name": "gobi manchurian",
+          "quantity": 11,
+          "cost": 1430
+        },
+        {
+          "Name": "chicken wings",
+          "quantity": 8,
+          "cost": 1600
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
