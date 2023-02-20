@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <input tupe="text" placeholder="Enter your search" id="search">
+   <p id="hint"></p>
+    <script>
+        let searchInput=document.querySelector("#search");
+        let hint=document.querySelector("#hint");
+        let BASE_URL='https://jsonplaceholder.typicode.com/users/';
+        let temparray=[]
+
+        async function searching(){         
+            let data=await fetch(BASE_URL);
+            let hints_data=await data.json();
+          
+            for(let i=0;i<hints_data.length;i++){
+                   temparray[i]=(hints_data[i].name).toLowerCase()
+                }
+            }
+            searching() 
+
+            searchInput.addEventListener("keyup",()=>{
+                hint.innerHTML="";
+                key=searchInput.value;
+                console.log(searchInput.value)
+            for(let i of temparray){
+                console.log(i)
+                if(i.includes((key).toLowerCase())){
+                hint.innerHTML += i +"<br>";
+                }
+            }
+
+            })
+    </script>
+</body>
+</html>
